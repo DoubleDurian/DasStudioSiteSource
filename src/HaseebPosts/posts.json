@@ -1,0 +1,37 @@
+{
+    "posts":[
+        {
+            "title":"Ayyyy",
+            "link":"",
+            "date":"lmao",
+            "cards":
+            [
+                {
+                    "name":"Squeegee",
+                    "content":"",
+                    "info":"Yipee"
+                },
+                {
+                    "name":"Weegee",
+                    "content":"",
+                    "info":"woah"
+                },
+                {
+                    "name":"Luigi",
+                    "content":"",
+                    "info":"owowowowow"
+                },
+                {
+                    "name":"Wario",
+                    "content":"",
+                    "info":"waaaaaa"
+                }
+            ],
+            "paragraphs":
+            [
+               "True divinity"
+            ]
+        }
+
+    ]
+}

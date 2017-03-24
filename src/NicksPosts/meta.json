@@ -1,0 +1,24 @@
+{
+    "posts":[
+
+        
+        {
+        "title":"Time to code",
+        "brief":"Hopefully now I can get the code upload mechanic working",
+        "img":"http://rs772.pbsrc.com/albums/yy10/gamerman14/scotmeetsweegee.jpg~c200",
+        "id":"0",
+        "type":"code"
+
+        },
+
+        {
+        "title":"My very first post",
+        "brief":"The site now has the ability to read a meta.json file that will tell the portfolio component what to load/display and what content to display along side it",
+        "img":"http://rs772.pbsrc.com/albums/yy10/gamerman14/scotmeetsweegee.jpg~c200",
+        "id":"0",
+        "type":"post"
+
+        }
+        
+        ]
+}

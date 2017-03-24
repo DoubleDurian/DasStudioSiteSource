@@ -1,0 +1,38 @@
+{
+    "codes":[
+        {
+            "title":"Code",
+            "link":"https://github.com/DoubleDurian/doubledurian.github.io",
+            "date":"",
+            "cards":
+            [
+                {
+                    "name":"Account.java",
+                    "content":"DoubleDurian/dc817165e2249bef5a5e1f1b991fe2cb",
+                    "info":"The purpose of the account class is to hold the information that a bank account would hold while also adding parameterized features"
+                },
+                {
+                    "name":"Account.java",
+                    "content":"DoubleDurian/dc817165e2249bef5a5e1f1b991fe2cb",
+                    "info":"The purpose of the account class is to hold the information that a bank account would hold while also adding parameterized features"
+                },
+                {
+                    "name":"Account.java",
+                    "content":"DoubleDurian/dc817165e2249bef5a5e1f1b991fe2cb",
+                    "info":"The purpose of the account class is to hold the information that a bank account would hold while also adding parameterized features"
+                },
+                {
+                    "name":"Account.java",
+                    "content":"DoubleDurian/dc817165e2249bef5a5e1f1b991fe2cb",
+                    "info":"The purpose of the account class is to hold the information that a bank account would hold while also adding parameterized features"
+                }
+            ],
+            "paragraphs":
+            [
+                "This is an attempt to make certain posts about code projects of mine easy for viewers to understand",
+                "I also want to make the page easy to navigate while keeping it as uncluttered as possible."
+            ]
+        }
+
+    ]
+}

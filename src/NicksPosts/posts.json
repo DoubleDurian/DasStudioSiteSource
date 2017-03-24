@@ -1,0 +1,38 @@
+{
+    "posts":[
+        {
+            "title":"Image Gallery Template",
+            "link":"http://imgur.com/a/tdFnT",
+            "date":"The current date",
+            "cards":
+            [
+                {
+                    "name":"Hand",
+                    "content":"http://imgur.com/7Gehs9G.jpg",
+                    "info":"Paragraph of info below the work"
+                },
+                {
+                    "name":"Canada",
+                    "content":"http://imgur.com/WaDnELd.jpg",
+                    "info":"This is the size of exactly one paragraph , but the size of that paragraph can go as long as you like"
+                },
+                {
+                    "name":"The Nick of the Irish",
+                    "content":"http://imgur.com/IwHu8MM.jpg",
+                    "info":"Historically speaking, the luck of the irish has been rather shit"
+                },
+                {
+                    "name":"Smoke",
+                    "content":"http://imgur.com/QeXm29K.jpg",
+                    "info":"'We get it, you vape'"
+                }
+            ],
+            "paragraphs":
+            [
+                "This is an attempt to make certain posts about code projects of mine easy for viewers to understand",
+                "I also want to make the page easy to navigate while keeping it as uncluttered as possible."
+            ]
+        }
+
+    ]
+}
