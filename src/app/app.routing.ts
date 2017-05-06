@@ -9,6 +9,7 @@ import {NickSocialmediaComponent} from './nick-socialmedia.component';
 import {NickBioComponent} from './nick-bio.component';
 import {NickPostComponent} from './nick-post.component';
 import {NickCodeComponent} from './nick-code.component';
+import {NickVideoComponent} from './nick-video.component';
 
 
 import {HaseebComponent} from './haseeb.component';
@@ -18,6 +19,7 @@ import {HaseebPortfolioComponent} from './haseeb-portfolio.component';
 import {HaseebSocialmediaComponent} from './haseeb-socialmedia.component';
 import {HaseebPostComponent} from './haseeb-post.component';
 import {HaseebCodeComponent} from './haseeb-code.component';
+import {HaseebVideoComponent} from './haseeb-video.component';
 
 export const routing = RouterModule.forRoot([
     { path: '',component: HomeComponent},
@@ -29,7 +31,8 @@ export const routing = RouterModule.forRoot([
              { path: 'connect', component: NickSocialmediaComponent },
              { path: 'bio', component: NickBioComponent },
              { path: 'post/:id', component: NickPostComponent },
-             { path: 'code/:id', component: NickCodeComponent}
+             { path: 'code/:id', component: NickCodeComponent},
+             { path: 'video/:id', component: NickVideoComponent}
             
             
         ]},
@@ -41,7 +44,8 @@ export const routing = RouterModule.forRoot([
             { path: 'connect', component: HaseebSocialmediaComponent },
             { path: 'bio', component: HaseebBioComponent },
             { path: 'post/:id', component: HaseebPostComponent },
-            { path: 'code/:id', component: HaseebCodeComponent}
+            { path: 'code/:id', component: HaseebCodeComponent},
+            { path: 'video/:id', component: HaseebVideoComponent}
 
 
         ]},

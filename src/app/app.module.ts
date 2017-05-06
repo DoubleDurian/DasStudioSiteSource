@@ -8,6 +8,7 @@ import {Gist} from './gist.component';
 import { AppComponent } from './app.component';
 import {routing} from './app.routing';
 import {HomeComponent} from './home.component';
+import {SafePipe} from './safe.pipe';
 
 import {NickComponent} from './nick.component';
 import {NickOverviewComponent} from './nick-overview.component';
@@ -16,6 +17,7 @@ import {NickSocialmediaComponent} from './nick-socialmedia.component';
 import {NickBioComponent} from './nick-bio.component';
 import {NickPostComponent} from './nick-post.component';
 import {NickCodeComponent} from './nick-code.component';
+import {NickVideoComponent} from './nick-video.component';
 
 
 import {HaseebComponent} from './haseeb.component';
@@ -25,6 +27,7 @@ import {HaseebPortfolioComponent} from './haseeb-portfolio.component';
 import {HaseebSocialmediaComponent} from './haseeb-socialmedia.component';
 import {HaseebPostComponent} from './haseeb-post.component';
 import {HaseebCodeComponent} from './haseeb-code.component';
+import {HaseebVideoComponent} from './haseeb-video.component';
 
 
 @NgModule({
@@ -44,9 +47,12 @@ import {HaseebCodeComponent} from './haseeb-code.component';
     HaseebSocialmediaComponent,
     HaseebPostComponent,
     HaseebCodeComponent,
+    HaseebVideoComponent,
 
     NickCodeComponent,
-    Gist
+    Gist,
+    SafePipe,
+    NickVideoComponent
     
     
   ],

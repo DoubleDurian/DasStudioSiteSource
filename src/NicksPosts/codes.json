@@ -1,36 +1,70 @@
 {
     "codes":[
         {
-            "title":"Code",
-            "link":"https://github.com/DoubleDurian/doubledurian.github.io",
-            "date":"",
+            "title":"Making Brick Breaker in JavaFX",
+            "link":"https://github.com/DoubleDurian",
+            "date":"5/6/2017",
             "cards":
             [
                 {
-                    "name":"Account.java",
-                    "content":"DoubleDurian/dc817165e2249bef5a5e1f1b991fe2cb",
-                    "info":"The purpose of the account class is to hold the information that a bank account would hold while also adding parameterized features"
+                    "name":"Ball.java",
+                    "content":"DoubleDurian/3e38834403ad01305d3d1f59b06f0fec",
+                    "info":"This class contains information about the ball's size, velocity, and position."
                 },
                 {
-                    "name":"Account.java",
-                    "content":"DoubleDurian/dc817165e2249bef5a5e1f1b991fe2cb",
-                    "info":"The purpose of the account class is to hold the information that a bank account would hold while also adding parameterized features"
+                    "name":"Brick.java",
+                    "content":"DoubleDurian/6ceaad5f606bf3201cc78167ba6b0801",
+                    "info":"This class is an instance of a single brick, which contains the dimensions and position of the brick. It has methods for changing it's color based on its health and can determine if a ball has stuck it and from which side it has been struck."
                 },
                 {
-                    "name":"Account.java",
-                    "content":"DoubleDurian/dc817165e2249bef5a5e1f1b991fe2cb",
-                    "info":"The purpose of the account class is to hold the information that a bank account would hold while also adding parameterized features"
+                    "name":"BrickArray.java",
+                    "content":"DoubleDurian/9c5b1dcfff961ad6f2d6a72df0cd85fd",
+                    "info":"This object is responsible for managing all the bricks on the screen. It asks the each brick if it's been struck, and asks durring initialization it passes in the co-ordinates to the brick objects. The values j and i are multiplied by determne the distance between each brick."
                 },
                 {
-                    "name":"Account.java",
-                    "content":"DoubleDurian/dc817165e2249bef5a5e1f1b991fe2cb",
-                    "info":"The purpose of the account class is to hold the information that a bank account would hold while also adding parameterized features"
+                    "name":"BrickBreaker.java",
+                    "content":"DoubleDurian/b70ca566e6bf09a3b3b13947f03e7d37",
+                    "info":"This is the main file of the application and launches FX"
+                },
+                {
+                    "name":"Game.java",
+                    "content":"DoubleDurian/e4bef03fe5500913861f46750321f22d",
+                    "info":"This handles the game's sense of time. It tells the renderer and logic updates when to execute by having them chack to see that the system time has passed for a the appropriate length."
+                },
+                {
+                    "name":"Input.java",
+                    "content":"DoubleDurian/da697c47845b830d08dd89505cae3460",
+                    "info":"This creates an event listener, and tells the game what keys are depressed and which are not."
+                },
+                {
+                    "name":"LEVELmenu.java",
+                    "content":"DoubleDurian/6a777809cf8e669955eb6e91879747d2",
+                    "info":"This contains the list of rendering actions and logic actions needed to create the game's main menu. It also has methods to reset itself once it's no longer active."
+                },
+                {
+                    "name":"LEVELone.java",
+                    "content":"DoubleDurian/88473c58171597bfc90042d487690cdc",
+                    "info":"This is the list of rendering actions and logic updates needed to create the first and only level of the game."
+                },
+                {
+                    "name":"LevelOperator.java",
+                    "content":"DoubleDurian/340d36ac11de50e9a25977aa660d8ea2",
+                    "info":"The level operator uses a switch statment to determine which level or scene should be displayed. Each level has a method for telling the operator to break out of it and which level it should then head over too. This class also tells the levels to reset themselves if they have been activated or de-activated."
+                },
+                {
+                    "name":"Paddle.java",
+                    "content":"DoubleDurian/b097454f2df1802d732c0fe35ca0e6b6",
+                    "info":"The paddle has methods for updating it's position and momentum. It is called from the tick method of the LEVELone object"
                 }
+
+                
+                
             ],
             "paragraphs":
             [
-                "This is an attempt to make certain posts about code projects of mine easy for viewers to understand",
-                "I also want to make the page easy to navigate while keeping it as uncluttered as possible."
+                "This is a mutation of a project I've been working on for a while. The game began it's life as an end of year project that implemented graphics using java swing for it's graphics. I've since re-written it for the FX side of Java.",
+                "The following summer I decided that jumping into the Unity engine would be a bad idea without a stronger foundation in scripting so I decided to do the humble thing and try my hand at something more basic.",
+                "You know what they say, the journey of a million miles begines with a single step."
             ]
         }
 
